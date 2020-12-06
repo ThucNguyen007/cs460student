@@ -92,6 +92,7 @@ LightMapDemoScene.prototype.Load = function (cb) {
 						me.gl, mesh.vertices, [].concat.apply([], mesh.faces),
 						mesh.normals, vec4.fromValues(0.3, 0.3, 0.3, 1)
 					);
+					mat4.scale(me.WallsMesh.world, me.WallsMesh.world, vec3.fromValues(2,2,2));
 					break;
 			}
 		}
