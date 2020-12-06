@@ -1,6 +1,6 @@
 # cs460_final
 
-## Colaborators: Anees, Thuc, Yeshua
+## Colaborators: Anees, Thuc, Jesh Amera
 
 ### Credits: Built by watching tutorial:-
 https://www.youtube.com/watch?v=fNK1E5DdYxk&list=PLjcVFFANLS5zH_PeKC6I8p0Pt1hzph_rt&index=9
