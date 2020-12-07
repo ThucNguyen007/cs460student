@@ -26,10 +26,10 @@
 *  A to move left
 *  D to move right
 
-### ArrowUp to move Upwards
-### ArrowDown to move Downwards
-### ArrorwRight to rotate clockwise
-### ArrowLeft Rotate anticlockwise
+* ArrowUp to move Upwards
+* ArrowDown to move Downwards
+* ArrorwRight to rotate clockwise
+* ArrowLeft Rotate anticlockwise
 
 Credits: [sessamekesh](<https://github.com/sessamekesh/IndigoCS-webgl-tutorials>)
 
