@@ -12,8 +12,7 @@
     * [Implimentation of shader]()
     
 
-### Credits: Built by watching tutorial: 
-[WebGL Shadow Mapping](<https://www.youtube.com/channel/UCufDmM2MGQlbfS3luzgVDxw/>)
+### Credits: Built by watching tutorial: [WebGL Shadow Mapping](<https://www.youtube.com/channel/UCufDmM2MGQlbfS3luzgVDxw/>)
 
 
 
