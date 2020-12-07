@@ -12,7 +12,8 @@
     * [Implimentation of shader]()
     
 
-### Credits: Built by watching tutorial:  [WebGL Shadow Mapping]                                                                 (https://www.youtube.com/watch?v=fNK1E5DdYxk&list=PLjcVFFANLS5zH_PeKC6I8p0Pt1hzph_rt&index=9)
+### Credits: Built by watching tutorial:  
+* [WebGL Shadow Mapping] (https://www.youtube.com/watch?v=fNK1E5DdYxk&list=PLjcVFFANLS5zH_PeKC6I8p0Pt1hzph_rt&index=9)
 
 
 ### Live demo. [CS460FinalProject.io](<https://aneesurrehman001.github.io/cs460_final/>)
