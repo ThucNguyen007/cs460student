@@ -60,22 +60,24 @@ LightMapDemoScene.prototype.Load = function (cb) {
 				case 'TableMesh':
 					me.TableMesh = new Model(
 						me.gl, mesh.vertices, [].concat.apply([], mesh.faces),
-						mesh.normals, vec4.fromValues(1, 0, 1, 1)
+						mesh.normals, vec4.fromValues(220/250,20/250,60/250, 1)
 					);
 					mat4.translate(
 						me.TableMesh.world, me.TableMesh.world,
-						vec3.fromValues(1.57116, -0.79374, 0.49672)
+						vec3.fromValues(0, 0, 0.49672)
 					);
+					//mat4.scale(me.TableMesh.world, me.TableMesh.world, vec3.fromValues(1.5,1.5,1.5));
 					break;
 				case 'SofaMesh':
 					me.SofaMesh = new Model(
 						me.gl, mesh.vertices, [].concat.apply([], mesh.faces),
-						mesh.normals, vec4.fromValues(0, 1, 1, 1)	
+						mesh.normals, vec4.fromValues(244/250, 164/250, 96/250, 1)	
 					);
 					mat4.translate(
 						me.SofaMesh.world, me.SofaMesh.world,
 						vec3.fromValues(-3.28768, 0, 0.78448)
 					);
+					//mat4.scale(me.SofaMesh.world, me.SofaMesh.world, vec3.fromValues(1.5,1.5,1.5));
 					break;
 				case 'LightBulbMesh':
 					me.lightPosition = vec3.fromValues(0, 0.0, 2.58971);
@@ -86,11 +88,12 @@ LightMapDemoScene.prototype.Load = function (cb) {
 					mat4.translate(me.LightMesh.world, me.LightMesh.world,
 						me.lightPosition
 					);
+					
 					break;
 				case 'WallsMesh':
 					me.WallsMesh = new Model(
 						me.gl, mesh.vertices, [].concat.apply([], mesh.faces),
-						mesh.normals, vec4.fromValues(0.3, 0.3, 0.3, 1)
+						mesh.normals, vec4.fromValues(0, 0.3, 0.3, 1)
 					);
 					mat4.scale(me.WallsMesh.world, me.WallsMesh.world, vec3.fromValues(2,2,2));
 					break;
