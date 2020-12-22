@@ -45,7 +45,7 @@ LightMapDemoScene.prototype.Load = function (cb) {
 						mesh.vertices,
 						[].concat.apply([], mesh.faces),
 						mesh.normals,
-						vec4.fromValues(255/250,228/250,196/250, 1.0)
+						vec4.fromValues(255/250,228/250,197/250, 1.0)
 					);
 					mat4.rotate(
 						me.MonkeyMesh.world, me.MonkeyMesh.world,
