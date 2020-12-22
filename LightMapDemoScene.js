@@ -83,7 +83,7 @@ LightMapDemoScene.prototype.Load = function (cb) {
 					me.lightPosition = vec3.fromValues(0, 0.0, 2.58971);
 					me.LightMesh = new Model(
 						me.gl, mesh.vertices, [].concat.apply([], mesh.faces),
-						mesh.normals, vec4.fromValues(4, 4, 4, 1)
+						mesh.normals, vec4.fromValues(255,255,0, 1)
 					);
 					mat4.translate(me.LightMesh.world, me.LightMesh.world,
 						me.lightPosition
@@ -203,7 +203,7 @@ LightMapDemoScene.prototype.Load = function (cb) {
 		me.gl.texParameteri(me.gl.TEXTURE_CUBE_MAP, me.gl.TEXTURE_WRAP_T, me.gl.MIRRORED_REPEAT);
 		me.floatExtension = me.gl.getExtension("OES_texture_float");
 		me.floatLinearExtension = me.gl.getExtension("OES_texture_float_linear");
-		if (me.floatExtension && me.floatLinearExtension) {
+		if (me.floatExtension && me.floatLinearExtension && false) {
 			for (var i = 0; i < 6; i++) {
 				me.gl.texImage2D(
 					me.gl.TEXTURE_CUBE_MAP_POSITIVE_X + i,
