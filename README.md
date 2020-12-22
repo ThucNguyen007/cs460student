@@ -3,13 +3,16 @@
 ## Colaborators: Anees, Thuc, Jesh Amera
 ### **Objective:**
 * Createing web based 3D visualization
+ 	* `index.html`
 	* `app.js`
-	* `index.html`
+	* `util.js`
 	* `Models.js`
+	* `LightMapDemoScene.js`
 
 ### **Purpose:**
-* To understand shader, shadow mapping in a 3D WebGL model
-    * [Implimentation of shader]()
+* To understand the shadow of 3D objects in computer graphics
+    * We visualize and analyze the nature of the shadow in a 3D space
+    * We had implemented different key shortcuts to simulate the objects
     
 
 ### Credits: Built by watching tutorial: [WebGL Shadow Mapping](<https://www.youtube.com/channel/UCufDmM2MGQlbfS3luzgVDxw/>)
